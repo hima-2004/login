@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0"
+        <title>Calculator</title>
+        <link rel="stylesheet"href="reg.css">
+    </head>
+    <body>
+        <h1 class="he">Flex & calculator</h1>
+        <div class="card">
+            <input type="number"id="value1" class="inputs" placeholder="Enter the the value 1">
+        </div>
+        <div class="first">
+            <input type="text" id="value2"class="inputs" placeholders="enter the value 1">
+        </div>
+        <h1 id="Result" class="he"></h1>
+        <div class="container">
+            
+            <div class="second">
+                <button type="submit" oneclick="add()" class="inputs">Addition</button>
+           </div>
+           <div class="second">
+            <button type="submit" oneclick="sub()" class="inputs">Subtraction</button>
+       </div>
+           <div class="second">
+           <button type="submit" oneclick="mul()" class="inputs">Multiplication</button>
+      </div>
+          <div class="second">
+          <button type="submit" oneclick="div()" class="inputs">Division</button>
+      </div>
+         <div class="second">
+         <button type="submit" oneclick="exp()" class="inputs">exponent</button>
+      </div>
+     <sript src="calc.js"></sript>     
+        </div>
+    </body>
+</html>
